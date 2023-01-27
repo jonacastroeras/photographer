@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container > div{
+    width: 33.3%;
+}
+
+#container{
+    display: flex;
+}
+
+#container > div{
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#heading{
+    height: 80vh;
+    display: flex;
+    background-color: black;
+}
+.left-photo{
+    width: 40%;
+}
+.right-photo{
+    width: 60%;
+    text-align: center;
+    margin-top: 20%;
+}
+h1{
+    font-size: 6rem;
+    line-height:0;
+    color: white;
+}
+.secondary-text{
+    color: white;
+    letter-spacing: 1rem;
+}
+.button{
+    padding: 1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.color-1{
+    background-color: #ababab;
+}
+.color-2{
+    background-color: #515151;
+}
+.color-3{
+    background-color: #4a4a4a;
+}
